@@ -22,6 +22,7 @@
 		48BB051518163A2100A28AD6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BB04F418163A2100A28AD6 /* UIKit.framework */; };
 		48BB051D18163A2100A28AD6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 48BB051B18163A2100A28AD6 /* InfoPlist.strings */; };
 		48BB051F18163A2100A28AD6 /* SoundAndShakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 48BB051E18163A2100A28AD6 /* SoundAndShakeTests.m */; };
+		48BB052918163AB500A28AD6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48BB052818163AB500A28AD6 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		48BB051A18163A2100A28AD6 /* SoundAndShakeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundAndShakeTests-Info.plist"; sourceTree = "<group>"; };
 		48BB051C18163A2100A28AD6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		48BB051E18163A2100A28AD6 /* SoundAndShakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundAndShakeTests.m; sourceTree = "<group>"; };
+		48BB052818163AB500A28AD6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48BB052918163AB500A28AD6 /* AudioToolbox.framework in Frameworks */,
 				48BB04F318163A2100A28AD6 /* CoreGraphics.framework in Frameworks */,
 				48BB04F518163A2100A28AD6 /* UIKit.framework in Frameworks */,
 				48BB04F118163A2100A28AD6 /* Foundation.framework in Frameworks */,
@@ -120,6 +123,7 @@
 				48BB050518163A2100A28AD6 /* Main_iPad.storyboard */,
 				48BB050818163A2100A28AD6 /* ViewController.h */,
 				48BB050918163A2100A28AD6 /* ViewController.m */,
+				48BB052818163AB500A28AD6 /* AudioToolbox.framework */,
 				48BB050B18163A2100A28AD6 /* Images.xcassets */,
 				48BB04F718163A2100A28AD6 /* Supporting Files */,
 			);
@@ -330,7 +334,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: ZhiJun Sun (7AST7U4NQ5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: ZhiJun Sun (7AST7U4NQ5)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
